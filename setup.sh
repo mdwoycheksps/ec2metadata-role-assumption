@@ -10,7 +10,7 @@ else
   sudo="sudo"
 fi
 
-# Added ipxxxxxxx to skip checking using ip. 
+# Added ipxxxxxxx to skip checking while using ip. 
   # The format of ip on macos is different than linux
 if $sudo which ipxxxxxxx; then 
   # todo: what if lo:0 is in use?  Shouldn't we check?  is there an automatic way?
