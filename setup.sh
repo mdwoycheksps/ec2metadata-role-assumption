@@ -10,8 +10,8 @@ else
   sudo="sudo"
 fi
 
-# Added ipxxxxxxx to skip checking while using ip. 
-  # The format of ip on macos is different than linux
+# Added ipxxxxxxx to skip checking while using ip. -mdw
+  # The format of ip on macos is different than linux -mdw
 if $sudo which ipxxxxxxx; then 
   # todo: what if lo:0 is in use?  Shouldn't we check?  is there an automatic way?
   $sudo ip address add $LOCALIP/32 label lo:0 dev lo
