@@ -1,3 +1,7 @@
+# NOTE: Docker Desktop v2.2.0.0 Broke this service. 
+
+* Use docker v2.1.0.5 or older if this does not get remedied. 
+
 An EC2 Metadata role credentials service
 ---------------------------------------------
 
